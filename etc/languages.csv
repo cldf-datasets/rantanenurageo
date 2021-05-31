@@ -1,0 +1,156 @@
+Branch,Language,Dialect,ExactMatch,GroupMatch
+Finnic,Finnish,,finn1318,
+Finnic,Finnish,Far-Northern dialects,pera1253,
+Finnic,Finnish,Kven,kven1236,
+Finnic,Finnish,Meänkieli,torn1244,
+Finnic,Finnish,Mid- and Northern Ostrobothnian dialects,cent1985,
+Finnic,Finnish,Savonian dialects,savo1254,
+Finnic,Finnish,Southeastern dialects,sout1743,
+Finnic,Finnish,Southern Ostrobothnian dialects,sout2678,
+Finnic,Finnish,Southwestern dialects,sout2677,
+Finnic,Finnish,Tavastian dialects,hame1240,
+Finnic,Finnish,Värmland,,finn1318
+Finnic,Ingrian,,ingr1248,
+Finnic,Ingrian,Hevaha Ingrian,khav1238,
+Finnic,Ingrian,Lower Luga Ingrian,lowe1392,
+Finnic,Ingrian,Oredeži Ingrian,ored1238,
+Finnic,Ingrian,Soikkola Ingrian,soyk1238,
+Finnic,Karelian,,kare1335,
+Finnic,Karelian,Livvi Karelian,livv1243,
+Finnic,Karelian,South Karelian,sout2676,
+Finnic,Karelian,South and Livvi Karelian,,kare1335
+Finnic,Karelian,Tver Karelian,tver1240,
+Finnic,Karelian,Viena Karelian,nort2673,
+Finnic,Livonian,,livv1244,
+Finnic,Livonian,Courland,west1760,
+Finnic,Livonian,Salaca,east2326,
+Finnic,Ludic,,ludi1246,
+Finnic,Ludic,Northern Ludic,nort3347,
+Finnic,Ludic,Southern Ludic,sout3332,
+Finnic,Ludic,Central,cent2364,
+Finnic,North Estonian,,esto1258,
+Finnic,North Estonian,Central dialects,,esto1258
+Finnic,North Estonian,Eastern dialects,,esto1258
+Finnic,North Estonian,Island dialects,,esto1258
+Finnic,North Estonian,Northeastern coastal dialects,,esto1258
+Finnic,North Estonian,Western dialects,,esto1258
+Finnic,South Estonian,,sout2679,
+Finnic,South Estonian,Mulgi dialect,,voro1241
+Finnic,South Estonian,Seto,seto1244,
+Finnic,South Estonian,Seto dialect,,seto1244
+Finnic,South Estonian,Tarto dialect,,voro1241
+Finnic,South Estonian,Võro,voro1241,
+Finnic,Veps,,veps1250,
+Finnic,Veps,Central Veps,cent1812,
+Finnic,Veps,Northern Veps,prio1238,
+Finnic,Veps,Southern Veps,sout2680,
+Finnic,Votic,,voti1245,
+Finnic,Votic,Eastern Votic,east2327,
+Finnic,Votic,Kukkuzi Votic,krev1234,
+Finnic,Votic,Western Votic,west2391,
+Hungarian,Hungarian,,hung1274,
+Hungarian,Hungarian,Central Transdanubia,,hung1274
+Hungarian,Hungarian,Csángó,csan1238,
+Hungarian,Hungarian,Northeast Hungary,nort2669,
+Hungarian,Hungarian,Region of Palóc,nort2670,
+Hungarian,Hungarian,Region of Tisza-Körös,,hung1274
+Hungarian,Hungarian,Southern Transdanubia,,hung1274
+Hungarian,Hungarian,Southern plain,danu1247,
+Hungarian,Hungarian,Székely,szek1241,
+Hungarian,Hungarian,Transylvanian plain,king1257,
+Hungarian,Hungarian,Western Transdanubia,west2388,
+Khanty,East Khanty,,east2774,
+Khanty,East Khanty,Surgut Khanty,surg1248,
+Khanty,East Khanty,Vakh-Vasyugan Khanty,fare1244,
+Khanty,North Khanty,,nort3264,
+Khanty,North Khanty,Ob Khanty,khan1273,
+Khanty,North Khanty,Obdorsk Khanty,obdo1234,
+Khanty,South Khanty,,sout3226
+Khanty,South Khanty,Irtysh Khanty,sout2675,
+Mansi,East Mansi,,,
+Mansi,North Mansi,,mans1258,
+Mansi,West and South Mansi,,south3253,
+Mari,Eastern Mari,,east2328,
+Mari,Hill Mari,,kozy1238,west2392
+Mari,Meadow Mari,,gras1239,
+Mari,North-Western Mari,,yara1249,west2392
+Mordvin,Erzya,,erzy1239,
+Mordvin,Erzya,Central Erzya,,erzy1239
+Mordvin,Erzya,Mixed Erzya,,erzy1239
+Mordvin,Erzya,North-Western Erzya,,erzy1239
+Mordvin,Erzya,South-Eastern Erzya,,erzy1239
+Mordvin,Erzya,Western Erzya,,erzy1239
+Mordvin,Erzya and Moksha,,mord1256,
+Mordvin,Moksha,,moks1248,
+Mordvin,Moksha,Central Moksha,,moks1248
+Mordvin,Moksha,South-Eastern Moksha,,moks1248
+Mordvin,Moksha,Transitional Moksha,,moks1248
+Mordvin,Moksha,Western Moksha,,moks1248
+Permic,Komi-Permyak,,komi1269,
+Permic,Komi-Yazva,,komi1277,
+Permic,Komi-Zyrian,,komi1268,
+Permic,Udmurt,,udmu1245,
+Permic,Udmurt,Besserman Udmurt,bese1243,
+Permic,Udmurt,Central Udmurt,cent2320,
+Permic,Udmurt,Northern Udmurt,nort2676,
+Permic,Udmurt,Southern Udmurt,sout2681,
+Saami,Aanaar Saami,,inar1241,
+Saami,Akkala Saami,,akka1237,
+Saami,Kemi Saami,,kemi1239,
+Saami,Kildin Saami,,kild1236,
+Saami,Kildin Saami,Kiillt,,kild1236
+Saami,Kildin Saami,Arsjogg,,kild1236
+Saami,Kildin Saami,Lujaa'vvr,,kild1236
+Saami,Kildin Saami,Kårdegg,,kild1236
+Saami,Lule Saami,,lule1254,
+Saami,Lule Saami,Central Lule Saami,,lule1254
+Saami,Lule Saami,Forest Lule Saami,,lule1254
+Saami,Lule Saami,Mixed Lule Saami,,lule1254
+Saami,Lule Saami,Northern Lule Saami,,lule1254
+Saami,Lule Saami,Southern Lule Saami,,lule1254
+Saami,North Saami,,nort2671,
+Saami,North Saami,Eastern Inland dialect,east2866,
+Saami,North Saami,Sea dialect,seal1238,
+Saami,North Saami,Torne dialect,torn1243,
+Saami,North Saami,Western Inland dialect,west2962,
+Saami,Pite Saami,,pite1240,
+Saami,Pite Saami,Arves dialect,,pite1240
+Saami,Pite Saami,Central dialect,,pite1240
+Saami,Pite Saami,Northern dialect,,pite1240
+Saami,Pite Saami,Southern dialect,,pite1240
+Saami,Skolt Saami,,skol1241,
+Saami,Skolt Saami,Southern,,skol1241
+Saami,Skolt Saami,Northern,,skol1241
+Saami,South Saami,,sout2674,
+Saami,South Saami,Central South Saami,,sout2674
+Saami,South Saami,Northern South Saami,,sout2674
+Saami,South Saami,Southern South Saami,,sout2674
+Saami,Ter Saami,,ters1235,
+Saami,Ume Saami,,umes1235,
+Saami,Ume Saami,Central Ume Saami,,umes1235
+Saami,Ume Saami,Northern Ume Saami,,umes1235
+Saami,Ume Saami,Western Ume Saami,,umes1235
+Samoyedic,Forest Enets,,fore1265,
+Samoyedic,Forest Nenets,,fore1274,
+Samoyedic,Kamas and Mator,,kama1351 / mato1250,
+Samoyedic,Kamas,,kama1351,
+Samoyedic,Kamas,Kamas Uralic,kama1378,
+Samoyedic,Kamas,Koybal,samo1299,
+Samoyedic,Mator,,mato1250,
+Samoyedic,Mator,Nuclear Mator,nucl1288,
+Samoyedic,Mator,Taigi,taig1245,
+Samoyedic,Mator,Karagas,kara1461,
+Samoyedic,Nganasan,,ngan1291,
+Samoyedic,Northern Selkup,,tazz1244,
+Samoyedic,Northern Selkup,Baikha dialect,,tazz1244
+Samoyedic,Northern Selkup,Karasino dialect,,tazz1244
+Samoyedic,Northern Selkup,Middle-Taz dialect,,tazz1244
+Samoyedic,Northern Selkup,Upper-Taz dialect,,tazz1244
+Samoyedic,Northern Selkup,Upper-Tolka dialect,,tazz1244
+Samoyedic,Northern Selkup,Yelogui dialect,,tazz1244
+Samoyedic,Tomsk region Selkup,,kety1234,
+Samoyedic,Tomsk region Selkup,Central Selkup,cent2328,
+Samoyedic,Tomsk region Selkup,Ket' Selkup,kety1235,
+Samoyedic,Tomsk region Selkup,Southern Selkup,sout3262,
+Samoyedic,Tundra Enets,,tund1254,
+Samoyedic,Tundra Nenets,,nene1249,
