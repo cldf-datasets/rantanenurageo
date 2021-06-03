@@ -29,11 +29,11 @@ Finnic,Ludic,Northern Ludic,nort3347,
 Finnic,Ludic,Southern Ludic,sout3332,
 Finnic,Ludic,Central,cent2364,
 Finnic,North Estonian,,esto1258,
-Finnic,North Estonian,Central dialects,,esto1258
-Finnic,North Estonian,Eastern dialects,,esto1258
-Finnic,North Estonian,Island dialects,,esto1258
-Finnic,North Estonian,Northeastern coastal dialects,,esto1258
-Finnic,North Estonian,Western dialects,,esto1258
+Finnic,North Estonian,Central dialects,kesk1234,
+Finnic,North Estonian,Eastern dialects,idae1234,
+Finnic,North Estonian,Island dialects,sart1250,
+Finnic,North Estonian,Northeastern coastal dialects,nort2674,
+Finnic,North Estonian,Western dialects,laan1234,
 Finnic,South Estonian,,sout2679,
 Finnic,South Estonian,Mulgi dialect,,voro1241
 Finnic,South Estonian,Seto,seto1244,
