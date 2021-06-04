@@ -1,12 +1,17 @@
 import re
 import copy
+import logging
 import pathlib
+import warnings
 import itertools
 import collections
 
 from clldutils.misc import slug
 from csvw.dsv import Dialect
 from cldfbench import Dataset as BaseDataset, CLDFSpec
+
+logging.getLogger("shapely.geos").setLevel(logging.WARNING)
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 URL = "https://zenodo.org/record/4784188/files/" \
       "Geographical%20database%20of%20the%20Uralic%20languages.zip?download=1"
@@ -24,20 +29,28 @@ PATHS = {
     ],
     'Language coordinates/': ['Uralic_coordinates.csv'],
 }
-
+# Harmonize dialect names across source files:
 VARIETIES = {
     ("Erzya", "Western (Insar)"): "Western",
     ("Erzya", "North-Western (Alatyr)"): "North-Western",
     ("Erzya", "South-Eastern (Sura)"): "South-Eastern",
     ("Erzya", "Mixed (Shoksha)"): "Mixed",
     ("East Khanty", "Vakh-Vasjugan Khanty"): "Vakh-Vasyugan Khanty",
+    ("Northern Selkup", "Bajixa"): "Baikha",
+    ("Northern Selkup", "Upper-Tol'ka"): "Upper-Tolka",
+    ("Northern Selkup", "Eloguj"): "Yelogui",
+    ("Tomsk region Selkup", "Central"): "Central Selkup",
+    ("Tomsk region Selkup", "Southern (Middle Ob')"): "Southern Selkup",
+    ("Tomsk region Selkup", "Southern (?aja)"): "Southern Selkup",
+    ("Tomsk region Selkup", "Ket'"): "Ket' Selkup",
+    ("Hungarian", "Transylvanian Plain"): "Transylvanian plain",
 }
 
 
 def normalize(l, d):
     d = d or ''
-    l = re.sub('\s+', ' ', l)
-    d = re.sub('\s+', ' ', d)
+    l = re.sub(r'\s+', ' ', l)
+    d = re.sub(r'\s+', ' ', d)
     if d == l:
         d = ''
     d = d.replace(l, '').replace('dialects', '').replace('dialect', '').strip()
@@ -145,6 +158,10 @@ class Dataset(BaseDataset):
         t = args.writer.cldf.add_table(
             'areas.csv',
             {
+                'name': 'ID',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#id',
+            },
+            {
                 'name': 'Language_ID',
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
             },
@@ -169,7 +186,6 @@ class Dataset(BaseDataset):
         polygons = {
             normalize(*k): v
             for k, v in shp2geojson(self.raw_dir / 'Uralic_languages_traditional_OGUL.shp').items()}
-        count, both = 0, 0
         ul = self.raw_dir.read_csv(
             'Uralic_coordinates.csv',
             dialect=Dialect(skipRows=2, delimiter=';', encoding='cp1252'),
@@ -180,18 +196,22 @@ class Dataset(BaseDataset):
                 return l
             return '{} [{}]'.format(l, d)
 
-        seen = set()
+        seen, lids = set(), set()
         for row in sorted(ul, key=lambda r: (r['Branch'], r['Language'])):
+            #
+            # Fix point location for North Karelian, see
+            # https://github.com/cldf-datasets/rantanenurageo/issues/5
+            #
+            if row['Language variant/dialect'] == 'North Karelian':
+                assert 65.16 < float(row['Latitude']) < 65.18
+                row['Latitude'] = '65.27'
+
             l, d = normalize(row['Language'], row['Language variant/dialect'])
             if (l, d) not in langs:
-                #
-                # FIXME: must incorporate into etc/languages.csv!
-                #
-                count += 1
-                #if row['Glottocode'] in gcodes:
-                #    print('****')
-                #print(','.join([row['Branch'], l, d, row['Glottocode']]))
-                continue
+                # If we cannot match by name, make sure we can match by exact Glottocode:
+                assert row['Glottocode'] in gcodes
+                lang = gcodes[row['Glottocode']]
+                l, d = normalize(lang['Language'], lang['Dialect'])
 
             if ((l, d) in seen) and row['Glottocode'] in gcodes:
                 lang = gcodes[row['Glottocode']]
@@ -209,12 +229,17 @@ class Dataset(BaseDataset):
                 Longitude=row['Longitude'],
                 Glottocode=lang['ExactMatch'],
             )
+            if cldf_lang['ID'] in lids:
+                # See https://github.com/cldf-datasets/rantanenurageo/issues/4
+                assert cldf_lang['ID'] == 'TomskregionSelkupSouthernSelkup'
+                continue
+
+            lids.add(cldf_lang['ID'])
+            args.writer.objects['LanguageTable'].append(cldf_lang)
             if (l, d) in polygons:
                 point = Point(float(row['Longitude']), float(row['Latitude']))
-                assert point.within(shape(polygons[l, d]['geometry']))
+                assert point.within(shape(polygons[l, d]['geometry'])), '{} - {}'.format(l, d)
                 args.writer.objects['areas.csv'].append(dict(
+                    ID=cldf_lang['ID'],
                     Language_ID=cldf_lang['ID'],
                     SpeakerArea=polygons[l, d]))
-            args.writer.objects['LanguageTable'].append(cldf_lang)
-
-        print(len(langs), len(ul), count, both)

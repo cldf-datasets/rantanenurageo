@@ -1,0 +1,24 @@
+{
+    "creators": [
+        {
+            "name": "Timo Rantanen"
+        },
+        {
+            "name": "Miina Norvik"
+        },
+        {
+            "name": "Robert Forkel"
+        }
+    ],
+    "title": "Geographic data for Uralic languages as CLDF dataset derived from Rantanen et al. \"Geographical database of the Uralic languages\"",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Generic",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Rantanen, Timo, Vesakoski, Outi, Ylikoski, Jussi, &amp; Tolvanen, Harri. (2021). Geographical database of the Uralic languages (Version v1.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4784188</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}

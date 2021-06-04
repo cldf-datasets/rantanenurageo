@@ -7,6 +7,7 @@
     ],
     "dc:bibliographicCitation": "Rantanen, Timo, Vesakoski, Outi, Ylikoski, Jussi, & Tolvanen, Harri. (2021). Geographical database of the Uralic languages (Version v1.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4784188",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
+    "dc:description": "This dataset provides geographic point coordinates as well as speaker areas as GeoJSON MultiPolygons in WGS84 for Uralic languages. It has been derived from the \"Geographic database of the Uralic languages\".",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:title": "Geographic data for Uralic languages as CLDF dataset derived from Rantanen et al. \"Geographical database of the Uralic languages\"",
     "dcat:accessURL": "https://github.com/cldf-datasets/rantanenurageo",
@@ -14,13 +15,13 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/rantanenurageo",
             "rdf:type": "prov:Entity",
-            "dc:created": "8cc6c1a",
+            "dc:created": "24f8708",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.4-2-g6e5834a31c",
+            "dc:created": "v4.4",
             "dc:title": "Glottolog"
         }
     ],
@@ -42,7 +43,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 137,
+            "dc:extent": 154,
             "tableSchema": {
                 "columns": [
                     {
@@ -126,9 +127,13 @@
         },
         {
             "dc:description": "Speaker areas are provided as GeoJSON MultiPolygons. Since these may be big (bigger than Python's default size limit for columns in CSV files, for example), this data is provided in a separate table to allow reading of the other language metadata without worrying about this.",
-            "dc:extent": 117,
+            "dc:extent": 127,
             "tableSchema": {
                 "columns": [
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
                     {
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
                         "name": "Language_ID"
@@ -152,6 +157,9 @@
                             ]
                         }
                     }
+                ],
+                "primaryKey": [
+                    "ID"
                 ]
             },
             "url": "areas.csv"
