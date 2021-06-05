@@ -15,13 +15,13 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/rantanenurageo",
             "rdf:type": "prov:Entity",
-            "dc:created": "24f8708",
+            "dc:created": "980fe88",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.4",
+            "dc:created": "v4.4-3-g8da6d68a3c",
             "dc:title": "Glottolog"
         }
     ],
@@ -127,7 +127,7 @@
         },
         {
             "dc:description": "Speaker areas are provided as GeoJSON MultiPolygons. Since these may be big (bigger than Python's default size limit for columns in CSV files, for example), this data is provided in a separate table to allow reading of the other language metadata without worrying about this.",
-            "dc:extent": 127,
+            "dc:extent": 129,
             "tableSchema": {
                 "columns": [
                     {

@@ -186,6 +186,9 @@ class Dataset(BaseDataset):
         polygons = {
             normalize(*k): v
             for k, v in shp2geojson(self.raw_dir / 'Uralic_languages_traditional_OGUL.shp').items()}
+        kamas_mator = polygons['Kamas and Mator', '']
+        polygons['Kamas', ''] = kamas_mator
+        polygons['Mator', ''] = kamas_mator
         ul = self.raw_dir.read_csv(
             'Uralic_coordinates.csv',
             dialect=Dialect(skipRows=2, delimiter=';', encoding='cp1252'),
