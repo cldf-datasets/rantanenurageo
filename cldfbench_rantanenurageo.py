@@ -108,6 +108,17 @@ def shp2geojson(shp):
     for (l, d), f in features.items():
         f['properties']['Language'] = l
         f['properties']['Dialect'] = d
+        f['properties']['title'] = l
+        if d:
+            f['properties']['title'] += ' ({})'.format(d)
+
+        f['properties']['description'] = 'Speaker area of {} in the {} time period'.format(
+            f['properties']['title'],
+            f['properties']['Timeperiod'])
+        if f['properties']['Sources']:
+            f['properties']['description'] += ' based on {}'.format(f['properties']['Sources'])
+        f['properties']['description'] += '.'
+
         # Remove duplicate polygons:
         f['geometry']['coordinates'] = sorted(set(f['geometry']['coordinates']))
 
