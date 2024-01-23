@@ -7,6 +7,7 @@ import itertools
 import collections
 
 from clldutils.misc import slug
+from clldutils.jsonlib import dump
 from csvw.dsv import Dialect
 from cldfbench import Dataset as BaseDataset, CLDFSpec
 
@@ -154,30 +155,23 @@ class Dataset(BaseDataset):
             'Branch',
             'Language',
             'Dialect',
-        )
-        t = args.writer.cldf.add_table(
-            'areas.csv',
             {
-                'name': 'ID',
-                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#id',
+                'name': 'Speaker_Area',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#speakerArea',
             },
-            {
-                'name': 'Language_ID',
-                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
-            },
-            {
-                'name': "SpeakerArea",
-                'dc:format': 'application/geo+json',
-                'dc:description':
-                    'Speaker area of the variety or language in the traditional time period.',
-                'datatype': 'json',
-            }
         )
-        t.common_props['dc:description'] = \
-            "Speaker areas are provided as GeoJSON MultiPolygons. Since these may be big (bigger " \
-            "than Python's default size limit for columns in CSV files, for example), this data " \
-            "is provided in a separate table to allow reading of the other language metadata " \
-            "without worrying about this."
+        #
+        # FIXME: replace areas.csv with MediaTable and speakerArea property!
+        #
+        args.writer.cldf.add_component('MediaTable')
+
+        geojson = {
+            'type': 'FeatureCollection',
+            'properties': {
+                'dc:description': 'Speaker areas of uralic language varieties in the traditional time period',
+            },
+            'features': []
+        }
 
         langs = {
             normalize(r['Language'], r['Dialect']): r
@@ -242,7 +236,10 @@ class Dataset(BaseDataset):
             if (l, d) in polygons:
                 point = Point(float(row['Longitude']), float(row['Latitude']))
                 assert point.within(shape(polygons[l, d]['geometry'])), '{} - {}'.format(l, d)
-                args.writer.objects['areas.csv'].append(dict(
-                    ID=cldf_lang['ID'],
-                    Language_ID=cldf_lang['ID'],
-                    SpeakerArea=polygons[l, d]))
+                geojson['features'].append(polygons[l, d])
+
+        dump(geojson, self.cldf_dir / 'speaker_areas.geojson', indent=2)
+        args.writer.objects['MediaTable'].append(dict(
+            ID='rantanenurageo',
+            Media_Type='application/geo+json',
+            Download_URL='speaker_areas.geojson'))
