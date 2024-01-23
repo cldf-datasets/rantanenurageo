@@ -14,7 +14,7 @@ from cldfbench import Dataset as BaseDataset, CLDFSpec
 logging.getLogger("shapely.geos").setLevel(logging.WARNING)
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-URL = "https://zenodo.org/record/4784188/files/" \
+URL = "https://zenodo.org/records/4784188/files/" \
       "Geographical%20database%20of%20the%20Uralic%20languages.zip?download=1"
 PREFIX = 'Geographical database of the Uralic languages/Geospatial datasets/'
 PATHS = {

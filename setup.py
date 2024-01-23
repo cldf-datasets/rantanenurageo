@@ -10,9 +10,6 @@ setup(
         'cldfbench.dataset': [
             'rantanenurageo=cldfbench_rantanenurageo:Dataset',
         ],
-        'cldfbench.commands': [
-            'rantanenurageo=rantanenurageocommands',
-        ],
     },
     install_requires=[
         'cldfbench',

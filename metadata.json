@@ -1,6 +1,6 @@
 {
     "id": "rantanenurageo",
-    "title": "Geographic data for Uralic languages as CLDF dataset derived from Rantanen et al. \"Geographical database of the Uralic languages\"",
+    "title": "Speaker areas for Uralic languages as CLDF dataset derived from Rantanen et al. \"Geographical database of the Uralic languages\"",
     "description": "This dataset provides geographic point coordinates as well as speaker areas as GeoJSON MultiPolygons in WGS84 for Uralic languages. It has been derived from the \"Geographic database of the Uralic languages\".",
     "license": "CC-BY-4.0",
     "url": null,

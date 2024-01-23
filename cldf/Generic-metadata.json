@@ -9,19 +9,19 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
     "dc:description": "This dataset provides geographic point coordinates as well as speaker areas as GeoJSON MultiPolygons in WGS84 for Uralic languages. It has been derived from the \"Geographic database of the Uralic languages\".",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
-    "dc:title": "Geographic data for Uralic languages as CLDF dataset derived from Rantanen et al. \"Geographical database of the Uralic languages\"",
+    "dc:title": "Speaker areas for Uralic languages as CLDF dataset derived from Rantanen et al. \"Geographical database of the Uralic languages\"",
     "dcat:accessURL": "https://github.com/cldf-datasets/rantanenurageo",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/cldf-datasets/rantanenurageo",
             "rdf:type": "prov:Entity",
-            "dc:created": "8c78b96",
+            "dc:created": "0fb1f3a",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8-60-g0a014f8f59",
+            "dc:created": "v4.8",
             "dc:title": "Glottolog"
         }
     ],
@@ -118,6 +118,19 @@
                     {
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#speakerArea",
                         "name": "Speaker_Area"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Speaker_Area"
+                        ],
+                        "reference": {
+                            "resource": "media.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
                     }
                 ],
                 "primaryKey": [

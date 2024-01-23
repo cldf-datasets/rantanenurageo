@@ -3,6 +3,7 @@ Babel==2.12.1
 bs4==0.0.1
 certifi==2022.12.7
 cldfbench==1.13.0
+-e git+https://github.com/cldf-datasets/rantanenurageo@0fb1f3a945b9e1dc122c291f77ec1ad948ab4fd6#egg=cldfbench_rantanenurageo
 -e git+https://github.com/bedlan/uratyp-1@40f8e9ddc0ae96f23f6fbba09b1681b24bfe0685#egg=cldfbench_uratyp
 cldfcatalog==1.5.1
 cldfzenodo==1.1.0
@@ -34,7 +35,7 @@ pluggy==1.0.0
 psycopg2==2.9.6
 purl==1.6
 pybtex==0.24.0
-pycldf==1.34.1
+pycldf==1.37.0
 pycountry==22.3.5
 pyglottolog==3.11.0
 pylatexenc==2.10
