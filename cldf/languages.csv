@@ -1,155 +1,155 @@
-ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Branch,Language,Dialect
-Finnish,Finnish,,62.52,25.75,finn1318,,Finnic,Finnish,
-FinnishSouthwestern,Finnish [Southwestern],,60.7,22.44,sout2677,,Finnic,Finnish,Southwestern
-FinnishTavastian,Finnish [Tavastian],,61.44,24.03,hame1240,,Finnic,Finnish,Tavastian
-FinnishSouthernOstrobothnian,Finnish [Southern Ostrobothnian],,62.72,22.96,sout2678,,Finnic,Finnish,Southern Ostrobothnian
-FinnishMidandNorthernOstrobothnian,Finnish [Mid- and Northern Ostrobothnian],,64.45,25.58,cent1985,,Finnic,Finnish,Mid- and Northern Ostrobothnian
-FinnishFarNorthern,Finnish [Far-Northern],,67.65,26.72,pera1253,,Finnic,Finnish,Far-Northern
-FinnishSavonian,Finnish [Savonian],,62.93,28.12,savo1254,,Finnic,Finnish,Savonian
-FinnishSoutheastern,Finnish [Southeastern],,61.15,29.43,sout1743,,Finnic,Finnish,Southeastern
-FinnishMeankieli,Finnish [Meänkieli],,67.14,21.42,torn1244,,Finnic,Finnish,Meänkieli
-FinnishKven,Finnish [Kven],,69.71,22.2,kven1236,,Finnic,Finnish,Kven
-FinnishVarmland,Finnish [Värmland],,60.59,12.66,,,Finnic,Finnish,Värmland
-Ingrian,Ingrian,,59.78,28.53,ingr1248,,Finnic,Ingrian,
-IngrianHevaha,Ingrian [Hevaha],,59.89,29.26,khav1238,,Finnic,Ingrian,Hevaha
-IngrianSoikkola,Ingrian [Soikkola],,59.78,28.53,soyk1238,,Finnic,Ingrian,Soikkola
-IngrianLowerLuga,Ingrian [Lower Luga],,59.51,28.18,lowe1392,,Finnic,Ingrian,Lower Luga
-IngrianOredezi,Ingrian [Oredeži],,59.11,30.28,ored1238,,Finnic,Ingrian,Oredeži
-Karelian,Karelian,,63.2,31.96,kare1335,,Finnic,Karelian,
-KarelianViena,Karelian [Viena],,65.27,30.87,nort2673,,Finnic,Karelian,Viena
-KarelianSouth,Karelian [South],,63.46,32.71,sout2676,,Finnic,Karelian,South
-Livonian,Livonian,,57.64,22.23,livv1244,,Finnic,Livonian,
-LivonianCourland,Livonian [Courland],,57.57,22.03,west1760,,Finnic,Livonian,Courland
-LivonianSalaca,Livonian [Salaca],,57.72,24.42,east2326,,Finnic,Livonian,Salaca
-KarelianLivvi,Karelian [Livvi],,61.75,32.59,livv1243,,Finnic,Karelian,Livvi
-Ludic,Ludic,,61.81,33.94,ludi1246,,Finnic,Ludic,
-LudicNorthern,Ludic [Northern],,62.19,34.02,nort3347,,Finnic,Ludic,Northern
-LudicCentral,Ludic [Central],,61.81,33.94,cent2364,,Finnic,Ludic,Central
-LudicSouthern,Ludic [Southern],,61.29,33.96,sout3332,,Finnic,Ludic,Southern
-NorthEstonian,North Estonian,,58.95,25.51,esto1258,,Finnic,North Estonian,
-NorthEstonianIsland,North Estonian [Island],,58.42,22.54,sart1250,,Finnic,North Estonian,Island
-NorthEstonianWestern,North Estonian [Western],,58.55,24.43,laan1234,,Finnic,North Estonian,Western
-NorthEstonianCentral,North Estonian [Central],,59.03,25.76,kesk1234,,Finnic,North Estonian,Central
-NorthEstonianEastern,North Estonian [Eastern],,58.71,26.7,idae1234,,Finnic,North Estonian,Eastern
-NorthEstonianNortheasterncoastal,North Estonian [Northeastern coastal],,59.29,27.07,nort2674,,Finnic,North Estonian,Northeastern coastal
-SouthEstonian,South Estonian,,58.01,26.63,sout2679,,Finnic,South Estonian,
-SouthEstonianMulgi,South Estonian [Mulgi],,58.15,25.66,,,Finnic,South Estonian,Mulgi
-SouthEstonianTarto,South Estonian [Tarto],,58.28,26.67,,,Finnic,South Estonian,Tarto
-SouthEstonianVoro,South Estonian [Võro],,57.85,27,voro1241,,Finnic,South Estonian,Võro
-SouthEstonianSeto,South Estonian [Seto],,57.86,27.68,,,Finnic,South Estonian,Seto
-KarelianTver,Karelian [Tver],,57.06,35.86,tver1240,,Finnic,Karelian,Tver
-Veps,Veps,,60.39,34.9,veps1250,,Finnic,Veps,
-VepsNorthern,Veps [Northern],,61.31,35.27,prio1238,,Finnic,Veps,Northern
-VepsCentral,Veps [Central],,60.34,34.79,cent1812,,Finnic,Veps,Central
-VepsSouthern,Veps [Southern],,59.87,35.02,sout2680,,Finnic,Veps,Southern
-Votic,Votic,,59.6,28.68,voti1245,,Finnic,Votic,
-VoticEastern,Votic [Eastern],,59.67,29.01,east2327,,Finnic,Votic,Eastern
-VoticWestern,Votic [Western],,59.6,28.68,west2391,,Finnic,Votic,Western
-VoticKukkuzi,Votic [Kukkuzi],,59.52,28.28,krev1234,,Finnic,Votic,Kukkuzi
-Hungarian,Hungarian,,46.91,19.66,hung1274,,Hungarian,Hungarian,
-HungarianWesternTransdanubia,Hungarian [Western Transdanubia],,47.11,16.6,west2388,,Hungarian,Hungarian,Western Transdanubia
-HungarianCentralTransdanubia,Hungarian [Central Transdanubia],,47.24,17.96,,,Hungarian,Hungarian,Central Transdanubia
-HungarianSouthernTransdanubia,Hungarian [Southern Transdanubia],,46.1,18.02,,,Hungarian,Hungarian,Southern Transdanubia
-HungarianSouthernplain,Hungarian [Southern plain],,46.25,19.45,danu1247,,Hungarian,Hungarian,Southern plain
-HungarianRegionofPaloc,Hungarian [Region of Palóc],,47.92,19.81,nort2670,,Hungarian,Hungarian,Region of Palóc
-HungarianRegionofTiszaKoros,Hungarian [Region of Tisza-Körös],,46.69,20.82,,,Hungarian,Hungarian,Region of Tisza-Körös
-HungarianNortheastHungary,Hungarian [Northeast Hungary],,48.16,21.96,nort2669,,Hungarian,Hungarian,Northeast Hungary
-HungarianTransylvanianplain,Hungarian [Transylvanian plain],,46.87,23.85,king1257,,Hungarian,Hungarian,Transylvanian plain
-HungarianSzekely,Hungarian [Székely],,46.29,25.49,szek1241,,Hungarian,Hungarian,Székely
-HungarianCsango,Hungarian [Csángó],,46.58,26.67,csan1238,,Hungarian,Hungarian,Csángó
-EastKhanty,East Khanty,,60.67,75.58,east2774,,Khanty,East Khanty,
-EastKhantySurgutKhanty,East Khanty [Surgut Khanty],,61.25,73.35,surg1248,,Khanty,East Khanty,Surgut Khanty
-EastKhantyVakhVasyuganKhanty,East Khanty [Vakh-Vasyugan Khanty],,61.06,77.94,fare1244,,Khanty,East Khanty,Vakh-Vasyugan Khanty
-Khanty,Khanty,,64.71,65.72,khan1279,,Khanty,Khanty,
-NorthKhanty,North Khanty,,63.25,65.87,nort3264,,Khanty,North Khanty,
-NorthKhantyObdorskKhanty,North Khanty [Obdorsk Khanty],,66.19,65.9,obdo1234,,Khanty,North Khanty,Obdorsk Khanty
-NorthKhantyObKhanty,North Khanty [Ob Khanty],,62.23,66.46,khan1273,,Khanty,North Khanty,Ob Khanty
-NorthKhantyObKhantykhan1273,North Khanty [Ob Khanty [khan1273]],,62.43,66.12,khan1273,,Khanty,North Khanty,Ob Khanty [khan1273]
-SouthKhanty,South Khanty,,60.03,69.39,sout3226,,Khanty,South Khanty,
-SouthKhantyIrtyshKhanty,South Khanty [Irtysh Khanty],,60.27,69.76,sout2675,,Khanty,South Khanty,Irtysh Khanty
-EastMansi,East Mansi,,60.2,65.49,,,Mansi,East Mansi,
-Mansi,Mansi,,62.23,60.77,mans1269,,Mansi,Mansi,
-NorthMansi,North Mansi,,63.64,61.75,mans1258,,Mansi,North Mansi,
-SouthMansi,South Mansi,,60.16,62.45,sout3253,,Mansi,South Mansi,
-WestMansi,West Mansi,,61.5,60.83,,,Mansi,West Mansi,
-EasternMari,Eastern Mari,,55.7,53.27,east2328,,Mari,Eastern Mari,
-HillMari,Hill Mari,,56.41,46.47,kozy1238,,Mari,Hill Mari,
-Mari,Mari,,56.51,47.67,mari1278,,Mari,Mari,
-MeadowMari,Meadow Mari,,56.72,48.49,gras1239,,Mari,Meadow Mari,
-NorthWesternMari,North-Western Mari,,57.18,46.38,yara1249,,Mari,North-Western Mari,
-Erzya,Erzya,,54.74,45.88,erzy1239,,Mordvin,Erzya,
-ErzyaCentral,Erzya [Central],,54.67,45.63,,,Mordvin,Erzya,Central
-ErzyaWestern,Erzya [Western],,54.69,45.2,,,Mordvin,Erzya,Western
-ErzyaNorthWestern,Erzya [North-Western],,55.07,44.67,,,Mordvin,Erzya,North-Western
-ErzyaSouthEastern,Erzya [South-Eastern],,54.33,46.59,,,Mordvin,Erzya,South-Eastern
-ErzyaMixed,Erzya [Mixed],,54.7,42.73,,,Mordvin,Erzya,Mixed
-Moksha,Moksha,,54.15,43.87,moks1248,,Mordvin,Moksha,
-MokshaWestern,Moksha [Western],,53.96,42.86,,,Mordvin,Moksha,Western
-MokshaCentral,Moksha [Central],,54.39,43.93,,,Mordvin,Moksha,Central
-MokshaSouthEastern,Moksha [South-Eastern],,53.91,44.37,,,Mordvin,Moksha,South-Eastern
-MokshaTransitional,Moksha [Transitional],,53.75,43.48,,,Mordvin,Moksha,Transitional
-KomiPermyak,Komi-Permyak,,59.96,54.51,komi1269,,Permic,Komi-Permyak,
-KomiYazva,Komi-Yazva,,59.93,57.62,komi1277,,Permic,Komi-Yazva,
-KomiZyrian,Komi-Zyrian,,64.05,54.95,komi1268,,Permic,Komi-Zyrian,
-Udmurt,Udmurt,,57.11,52.89,udmu1245,,Permic,Udmurt,
-UdmurtNorthern,Udmurt [Northern],,58.23,52.57,nort2676,,Permic,Udmurt,Northern
-UdmurtCentral,Udmurt [Central],,57.02,52.44,cent2320,,Permic,Udmurt,Central
-UdmurtSouthern,Udmurt [Southern],,56.16,52.05,sout2681,,Permic,Udmurt,Southern
-UdmurtBesserman,Udmurt [Besserman],,57.96,52.15,bese1243,,Permic,Udmurt,Besserman
-AanaarSaami,Aanaar Saami,,69.05,27.14,inar1241,,Saami,Aanaar Saami,
-AkkalaSaami,Akkala Saami,,67.86,32.4,akka1237,,Saami,Akkala Saami,
-KemiSaami,Kemi Saami,,67.09,27.49,kemi1239,,Saami,Kemi Saami,
-KildinSaami,Kildin Saami,,68.22,35.83,kild1236,,Saami,Kildin Saami,
-KildinSaamiKiillt,Kildin Saami [Kiillt],,69.11,33.76,,,Saami,Kildin Saami,Kiillt
-KildinSaamiArsjogg,Kildin Saami [Arsjogg],,68.44,37.51,,,Saami,Kildin Saami,Arsjogg
-KildinSaamiLujaavvr,Kildin Saami [Lujaa'vvr],,68.21,35.06,,,Saami,Kildin Saami,Lujaa'vvr
-KildinSaamiKardegg,Kildin Saami [Kårdegg],,68.94,34.98,,,Saami,Kildin Saami,Kårdegg
-LuleSaami,Lule Saami,,67.28,17.81,lule1254,,Saami,Lule Saami,
-LuleSaamiForest,Lule Saami [Forest],,66.37,20.21,,,Saami,Lule Saami,Forest
-LuleSaamiSouthern,Lule Saami [Southern],,66.72,18.42,,,Saami,Lule Saami,Southern
-LuleSaamiCentral,Lule Saami [Central],,67.15,18.47,,,Saami,Lule Saami,Central
-NorthSaami,North Saami,,68.72,22.11,nort2671,,Saami,North Saami,
-NorthSaamiTorne,North Saami [Torne],,68.1,21.43,torn1243,,Saami,North Saami,Torne
-NorthSaamiSea,North Saami [Sea],,70.3,24.65,seal1238,,Saami,North Saami,Sea
-NorthSaamiEasternInland,North Saami [Eastern Inland],,69.73,26.19,east2866,,Saami,North Saami,Eastern Inland
-NorthSaamiWesternInland,North Saami [Western Inland],,69.03,23.15,west2962,,Saami,North Saami,Western Inland
-PiteSaami,Pite Saami,,66.4,17.43,pite1240,,Saami,Pite Saami,
-PiteSaamiNorthern,Pite Saami [Northern],,66.55,17.89,,,Saami,Pite Saami,Northern
-PiteSaamiCentral,Pite Saami [Central],,66.48,16.79,,,Saami,Pite Saami,Central
-PiteSaamiSouthern,Pite Saami [Southern],,66.22,16.33,,,Saami,Pite Saami,Southern
-SkoltSaami,Skolt Saami,,68.83,29.72,skol1241,,Saami,Skolt Saami,
-SkoltSaamiSouthern,Skolt Saami [Southern],,68.54,30.34,,,Saami,Skolt Saami,Southern
-SkoltSaamiNorthern,Skolt Saami [Northern],,69.35,30.94,,,Saami,Skolt Saami,Northern
-SouthSaami,South Saami,,62.88,13.7,sout2674,,Saami,South Saami,
-SouthSaamiSouthern,South Saami [Southern],,62.57,12.84,,,Saami,South Saami,Southern
-SouthSaamiCentral,South Saami [Central],,63.99,13.61,,,Saami,South Saami,Central
-SouthSaamiNorthern,South Saami [Northern],,64.83,15.44,,,Saami,South Saami,Northern
-TerSaami,Ter Saami,,67.25,38.51,ters1235,,Saami,Ter Saami,
-UmeSaami,Ume Saami,,65.3,17.97,umes1235,,Saami,Ume Saami,
-UmeSaamiWestern,Ume Saami [Western],,65.71,16.28,,,Saami,Ume Saami,Western
-UmeSaamiCentral,Ume Saami [Central],,65.29,18.37,,,Saami,Ume Saami,Central
-UmeSaamiNorthern,Ume Saami [Northern],,65.8,19.14,,,Saami,Ume Saami,Northern
-ForestEnets,Forest Enets,,68.55,85.83,fore1265,,Samoyedic,Forest Enets,
-ForestNenets,Forest Nenets,,63.72,71.97,fore1274,,Samoyedic,Forest Nenets,
-Kamas,Kamas,,55.07,94.83,kama1351,,Samoyedic,Kamas,
-Kamaskama1378,Kamas [ [kama1378]],,54.79,92.82,kama1378,,Samoyedic,Kamas, [kama1378]
-KamasKoybal,Kamas [Koybal],,53.62,91.94,samo1299,,Samoyedic,Kamas,Koybal
-Mator,Mator,,54.27,97.34,mato1250,,Samoyedic,Mator,
-Matornucl1288,Mator [ [nucl1288]],,53.98,93.59,nucl1288,,Samoyedic,Mator, [nucl1288]
-MatorTaigi,Mator [Taigi],,53.82,95.69,taig1245,,Samoyedic,Mator,Taigi
-MatorKaragas,Mator [Karagas],,54.49,99.11,kara1461,,Samoyedic,Mator,Karagas
-Nganasan,Nganasan,,72.12,102.83,ngan1291,,Samoyedic,Nganasan,
-NorthernSelkup,Northern Selkup,,66.05,84.02,tazz1244,,Samoyedic,Northern Selkup,
-NorthernSelkupMiddleTaz,Northern Selkup [Middle-Taz],,65.98,81.64,,,Samoyedic,Northern Selkup,Middle-Taz
-NorthernSelkupKarasino,Northern Selkup [Karasino],,66.86,85.56,,,Samoyedic,Northern Selkup,Karasino
-NorthernSelkupBaikha,Northern Selkup [Baikha],,65.69,86.22,,,Samoyedic,Northern Selkup,Baikha
-NorthernSelkupUpperTolka,Northern Selkup [Upper-Tolka],,63.66,80.28,,,Samoyedic,Northern Selkup,Upper-Tolka
-NorthernSelkupUpperTaz,Northern Selkup [Upper-Taz],,63.84,84.38,,,Samoyedic,Northern Selkup,Upper-Taz
-NorthernSelkupYelogui,Northern Selkup [Yelogui],,62.42,86.16,,,Samoyedic,Northern Selkup,Yelogui
-Selkup,Selkup,,65,83.11,selk1253,,Samoyedic,Selkup,
-TomskregionSelkupSouthernSelkup,Tomsk region Selkup [Southern Selkup],,58.4,82.52,sout3262,,Samoyedic,Tomsk region Selkup,Southern Selkup
-TomskregionSelkup,Tomsk region Selkup,,58.18,81.11,kety1234,,Samoyedic,Tomsk region Selkup,
-TomskregionSelkupCentralSelkup,Tomsk region Selkup [Central Selkup],,59.87,81.29,cent2328,,Samoyedic,Tomsk region Selkup,Central Selkup
-TomskregionSelkupKetSelkup,Tomsk region Selkup [Ket' Selkup],,58.9,85.98,kety1235,,Samoyedic,Tomsk region Selkup,Ket' Selkup
-TundraEnets,Tundra Enets,,70.74,84.41,tund1254,,Samoyedic,Tundra Enets,
-TundraNenets,Tundra Nenets,,66.18,71.02,nene1249,,Samoyedic,Tundra Nenets,
+ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Branch,Language,Dialect,Speaker_Area
+Finnish,Finnish,,62.52,25.75,finn1318,,Finnic,Finnish,,rantanenurageo
+FinnishSouthwestern,Finnish [Southwestern],,60.7,22.44,sout2677,,Finnic,Finnish,Southwestern,rantanenurageo
+FinnishTavastian,Finnish [Tavastian],,61.44,24.03,hame1240,,Finnic,Finnish,Tavastian,rantanenurageo
+FinnishSouthernOstrobothnian,Finnish [Southern Ostrobothnian],,62.72,22.96,sout2678,,Finnic,Finnish,Southern Ostrobothnian,rantanenurageo
+FinnishMidandNorthernOstrobothnian,Finnish [Mid- and Northern Ostrobothnian],,64.45,25.58,cent1985,,Finnic,Finnish,Mid- and Northern Ostrobothnian,rantanenurageo
+FinnishFarNorthern,Finnish [Far-Northern],,67.65,26.72,pera1253,,Finnic,Finnish,Far-Northern,rantanenurageo
+FinnishSavonian,Finnish [Savonian],,62.93,28.12,savo1254,,Finnic,Finnish,Savonian,rantanenurageo
+FinnishSoutheastern,Finnish [Southeastern],,61.15,29.43,sout1743,,Finnic,Finnish,Southeastern,rantanenurageo
+FinnishMeankieli,Finnish [Meänkieli],,67.14,21.42,torn1244,,Finnic,Finnish,Meänkieli,
+FinnishKven,Finnish [Kven],,69.71,22.2,kven1236,,Finnic,Finnish,Kven,
+FinnishVarmland,Finnish [Värmland],,60.59,12.66,,,Finnic,Finnish,Värmland,
+Ingrian,Ingrian,,59.78,28.53,ingr1248,,Finnic,Ingrian,,rantanenurageo
+IngrianHevaha,Ingrian [Hevaha],,59.89,29.26,khav1238,,Finnic,Ingrian,Hevaha,rantanenurageo
+IngrianSoikkola,Ingrian [Soikkola],,59.78,28.53,soyk1238,,Finnic,Ingrian,Soikkola,rantanenurageo
+IngrianLowerLuga,Ingrian [Lower Luga],,59.51,28.18,lowe1392,,Finnic,Ingrian,Lower Luga,rantanenurageo
+IngrianOredezi,Ingrian [Oredeži],,59.11,30.28,ored1238,,Finnic,Ingrian,Oredeži,rantanenurageo
+Karelian,Karelian,,63.2,31.96,kare1335,,Finnic,Karelian,,rantanenurageo
+KarelianViena,Karelian [Viena],,65.27,30.87,nort2673,,Finnic,Karelian,Viena,rantanenurageo
+KarelianSouth,Karelian [South],,63.46,32.71,sout2676,,Finnic,Karelian,South,rantanenurageo
+Livonian,Livonian,,57.64,22.23,livv1244,,Finnic,Livonian,,rantanenurageo
+LivonianCourland,Livonian [Courland],,57.57,22.03,west1760,,Finnic,Livonian,Courland,
+LivonianSalaca,Livonian [Salaca],,57.72,24.42,east2326,,Finnic,Livonian,Salaca,
+KarelianLivvi,Karelian [Livvi],,61.75,32.59,livv1243,,Finnic,Karelian,Livvi,rantanenurageo
+Ludic,Ludic,,61.81,33.94,ludi1246,,Finnic,Ludic,,rantanenurageo
+LudicNorthern,Ludic [Northern],,62.19,34.02,nort3347,,Finnic,Ludic,Northern,rantanenurageo
+LudicCentral,Ludic [Central],,61.81,33.94,cent2364,,Finnic,Ludic,Central,
+LudicSouthern,Ludic [Southern],,61.29,33.96,sout3332,,Finnic,Ludic,Southern,rantanenurageo
+NorthEstonian,North Estonian,,58.95,25.51,esto1258,,Finnic,North Estonian,,rantanenurageo
+NorthEstonianIsland,North Estonian [Island],,58.42,22.54,sart1250,,Finnic,North Estonian,Island,rantanenurageo
+NorthEstonianWestern,North Estonian [Western],,58.55,24.43,laan1234,,Finnic,North Estonian,Western,rantanenurageo
+NorthEstonianCentral,North Estonian [Central],,59.03,25.76,kesk1234,,Finnic,North Estonian,Central,rantanenurageo
+NorthEstonianEastern,North Estonian [Eastern],,58.71,26.7,idae1234,,Finnic,North Estonian,Eastern,rantanenurageo
+NorthEstonianNortheasterncoastal,North Estonian [Northeastern coastal],,59.29,27.07,nort2674,,Finnic,North Estonian,Northeastern coastal,rantanenurageo
+SouthEstonian,South Estonian,,58.01,26.63,sout2679,,Finnic,South Estonian,,rantanenurageo
+SouthEstonianMulgi,South Estonian [Mulgi],,58.15,25.66,,,Finnic,South Estonian,Mulgi,rantanenurageo
+SouthEstonianTarto,South Estonian [Tarto],,58.28,26.67,,,Finnic,South Estonian,Tarto,rantanenurageo
+SouthEstonianVoro,South Estonian [Võro],,57.85,27,voro1241,,Finnic,South Estonian,Võro,rantanenurageo
+SouthEstonianSeto,South Estonian [Seto],,57.86,27.68,,,Finnic,South Estonian,Seto,rantanenurageo
+KarelianTver,Karelian [Tver],,57.06,35.86,tver1240,,Finnic,Karelian,Tver,rantanenurageo
+Veps,Veps,,60.39,34.9,veps1250,,Finnic,Veps,,rantanenurageo
+VepsNorthern,Veps [Northern],,61.31,35.27,prio1238,,Finnic,Veps,Northern,rantanenurageo
+VepsCentral,Veps [Central],,60.34,34.79,cent1812,,Finnic,Veps,Central,rantanenurageo
+VepsSouthern,Veps [Southern],,59.87,35.02,sout2680,,Finnic,Veps,Southern,rantanenurageo
+Votic,Votic,,59.6,28.68,voti1245,,Finnic,Votic,,rantanenurageo
+VoticEastern,Votic [Eastern],,59.67,29.01,east2327,,Finnic,Votic,Eastern,rantanenurageo
+VoticWestern,Votic [Western],,59.6,28.68,west2391,,Finnic,Votic,Western,rantanenurageo
+VoticKukkuzi,Votic [Kukkuzi],,59.52,28.28,krev1234,,Finnic,Votic,Kukkuzi,rantanenurageo
+Hungarian,Hungarian,,46.91,19.66,hung1274,,Hungarian,Hungarian,,rantanenurageo
+HungarianWesternTransdanubia,Hungarian [Western Transdanubia],,47.11,16.6,west2388,,Hungarian,Hungarian,Western Transdanubia,rantanenurageo
+HungarianCentralTransdanubia,Hungarian [Central Transdanubia],,47.24,17.96,,,Hungarian,Hungarian,Central Transdanubia,rantanenurageo
+HungarianSouthernTransdanubia,Hungarian [Southern Transdanubia],,46.1,18.02,,,Hungarian,Hungarian,Southern Transdanubia,rantanenurageo
+HungarianSouthernplain,Hungarian [Southern plain],,46.25,19.45,danu1247,,Hungarian,Hungarian,Southern plain,rantanenurageo
+HungarianRegionofPaloc,Hungarian [Region of Palóc],,47.92,19.81,nort2670,,Hungarian,Hungarian,Region of Palóc,rantanenurageo
+HungarianRegionofTiszaKoros,Hungarian [Region of Tisza-Körös],,46.69,20.82,,,Hungarian,Hungarian,Region of Tisza-Körös,rantanenurageo
+HungarianNortheastHungary,Hungarian [Northeast Hungary],,48.16,21.96,nort2669,,Hungarian,Hungarian,Northeast Hungary,rantanenurageo
+HungarianTransylvanianplain,Hungarian [Transylvanian plain],,46.87,23.85,king1257,,Hungarian,Hungarian,Transylvanian plain,rantanenurageo
+HungarianSzekely,Hungarian [Székely],,46.29,25.49,szek1241,,Hungarian,Hungarian,Székely,rantanenurageo
+HungarianCsango,Hungarian [Csángó],,46.58,26.67,csan1238,,Hungarian,Hungarian,Csángó,rantanenurageo
+EastKhanty,East Khanty,,60.67,75.58,east2774,,Khanty,East Khanty,,rantanenurageo
+EastKhantySurgutKhanty,East Khanty [Surgut Khanty],,61.25,73.35,surg1248,,Khanty,East Khanty,Surgut Khanty,rantanenurageo
+EastKhantyVakhVasyuganKhanty,East Khanty [Vakh-Vasyugan Khanty],,61.06,77.94,fare1244,,Khanty,East Khanty,Vakh-Vasyugan Khanty,rantanenurageo
+Khanty,Khanty,,64.71,65.72,khan1279,,Khanty,Khanty,,
+NorthKhanty,North Khanty,,63.25,65.87,nort3264,,Khanty,North Khanty,,rantanenurageo
+NorthKhantyObdorskKhanty,North Khanty [Obdorsk Khanty],,66.19,65.9,obdo1234,,Khanty,North Khanty,Obdorsk Khanty,rantanenurageo
+NorthKhantyObKhanty,North Khanty [Ob Khanty],,62.23,66.46,khan1273,,Khanty,North Khanty,Ob Khanty,rantanenurageo
+NorthKhantyObKhantykhan1273,North Khanty [Ob Khanty [khan1273]],,62.43,66.12,khan1273,,Khanty,North Khanty,Ob Khanty [khan1273],
+SouthKhanty,South Khanty,,60.03,69.39,sout3226,,Khanty,South Khanty,,rantanenurageo
+SouthKhantyIrtyshKhanty,South Khanty [Irtysh Khanty],,60.27,69.76,sout2675,,Khanty,South Khanty,Irtysh Khanty,rantanenurageo
+EastMansi,East Mansi,,60.2,65.49,,,Mansi,East Mansi,,rantanenurageo
+Mansi,Mansi,,62.23,60.77,mans1269,,Mansi,Mansi,,
+NorthMansi,North Mansi,,63.64,61.75,mans1258,,Mansi,North Mansi,,rantanenurageo
+SouthMansi,South Mansi,,60.16,62.45,sout3253,,Mansi,South Mansi,,
+WestMansi,West Mansi,,61.5,60.83,,,Mansi,West Mansi,,
+EasternMari,Eastern Mari,,55.7,53.27,east2328,,Mari,Eastern Mari,,rantanenurageo
+HillMari,Hill Mari,,56.41,46.47,kozy1238,,Mari,Hill Mari,,rantanenurageo
+Mari,Mari,,56.51,47.67,mari1278,,Mari,Mari,,
+MeadowMari,Meadow Mari,,56.72,48.49,gras1239,,Mari,Meadow Mari,,rantanenurageo
+NorthWesternMari,North-Western Mari,,57.18,46.38,yara1249,,Mari,North-Western Mari,,rantanenurageo
+Erzya,Erzya,,54.74,45.88,erzy1239,,Mordvin,Erzya,,rantanenurageo
+ErzyaCentral,Erzya [Central],,54.67,45.63,,,Mordvin,Erzya,Central,rantanenurageo
+ErzyaWestern,Erzya [Western],,54.69,45.2,,,Mordvin,Erzya,Western,rantanenurageo
+ErzyaNorthWestern,Erzya [North-Western],,55.07,44.67,,,Mordvin,Erzya,North-Western,rantanenurageo
+ErzyaSouthEastern,Erzya [South-Eastern],,54.33,46.59,,,Mordvin,Erzya,South-Eastern,rantanenurageo
+ErzyaMixed,Erzya [Mixed],,54.7,42.73,,,Mordvin,Erzya,Mixed,rantanenurageo
+Moksha,Moksha,,54.15,43.87,moks1248,,Mordvin,Moksha,,rantanenurageo
+MokshaWestern,Moksha [Western],,53.96,42.86,,,Mordvin,Moksha,Western,rantanenurageo
+MokshaCentral,Moksha [Central],,54.39,43.93,,,Mordvin,Moksha,Central,rantanenurageo
+MokshaSouthEastern,Moksha [South-Eastern],,53.91,44.37,,,Mordvin,Moksha,South-Eastern,rantanenurageo
+MokshaTransitional,Moksha [Transitional],,53.75,43.48,,,Mordvin,Moksha,Transitional,rantanenurageo
+KomiPermyak,Komi-Permyak,,59.96,54.51,komi1269,,Permic,Komi-Permyak,,rantanenurageo
+KomiYazva,Komi-Yazva,,59.93,57.62,komi1277,,Permic,Komi-Yazva,,rantanenurageo
+KomiZyrian,Komi-Zyrian,,64.05,54.95,komi1268,,Permic,Komi-Zyrian,,rantanenurageo
+Udmurt,Udmurt,,57.11,52.89,udmu1245,,Permic,Udmurt,,rantanenurageo
+UdmurtNorthern,Udmurt [Northern],,58.23,52.57,nort2676,,Permic,Udmurt,Northern,rantanenurageo
+UdmurtCentral,Udmurt [Central],,57.02,52.44,cent2320,,Permic,Udmurt,Central,rantanenurageo
+UdmurtSouthern,Udmurt [Southern],,56.16,52.05,sout2681,,Permic,Udmurt,Southern,rantanenurageo
+UdmurtBesserman,Udmurt [Besserman],,57.96,52.15,bese1243,,Permic,Udmurt,Besserman,rantanenurageo
+AanaarSaami,Aanaar Saami,,69.05,27.14,inar1241,,Saami,Aanaar Saami,,rantanenurageo
+AkkalaSaami,Akkala Saami,,67.86,32.4,akka1237,,Saami,Akkala Saami,,rantanenurageo
+KemiSaami,Kemi Saami,,67.09,27.49,kemi1239,,Saami,Kemi Saami,,
+KildinSaami,Kildin Saami,,68.22,35.83,kild1236,,Saami,Kildin Saami,,rantanenurageo
+KildinSaamiKiillt,Kildin Saami [Kiillt],,69.11,33.76,,,Saami,Kildin Saami,Kiillt,
+KildinSaamiArsjogg,Kildin Saami [Arsjogg],,68.44,37.51,,,Saami,Kildin Saami,Arsjogg,
+KildinSaamiLujaavvr,Kildin Saami [Lujaa'vvr],,68.21,35.06,,,Saami,Kildin Saami,Lujaa'vvr,
+KildinSaamiKardegg,Kildin Saami [Kårdegg],,68.94,34.98,,,Saami,Kildin Saami,Kårdegg,
+LuleSaami,Lule Saami,,67.28,17.81,lule1254,,Saami,Lule Saami,,rantanenurageo
+LuleSaamiForest,Lule Saami [Forest],,66.37,20.21,,,Saami,Lule Saami,Forest,rantanenurageo
+LuleSaamiSouthern,Lule Saami [Southern],,66.72,18.42,,,Saami,Lule Saami,Southern,rantanenurageo
+LuleSaamiCentral,Lule Saami [Central],,67.15,18.47,,,Saami,Lule Saami,Central,rantanenurageo
+NorthSaami,North Saami,,68.72,22.11,nort2671,,Saami,North Saami,,rantanenurageo
+NorthSaamiTorne,North Saami [Torne],,68.1,21.43,torn1243,,Saami,North Saami,Torne,rantanenurageo
+NorthSaamiSea,North Saami [Sea],,70.3,24.65,seal1238,,Saami,North Saami,Sea,rantanenurageo
+NorthSaamiEasternInland,North Saami [Eastern Inland],,69.73,26.19,east2866,,Saami,North Saami,Eastern Inland,rantanenurageo
+NorthSaamiWesternInland,North Saami [Western Inland],,69.03,23.15,west2962,,Saami,North Saami,Western Inland,rantanenurageo
+PiteSaami,Pite Saami,,66.4,17.43,pite1240,,Saami,Pite Saami,,rantanenurageo
+PiteSaamiNorthern,Pite Saami [Northern],,66.55,17.89,,,Saami,Pite Saami,Northern,rantanenurageo
+PiteSaamiCentral,Pite Saami [Central],,66.48,16.79,,,Saami,Pite Saami,Central,rantanenurageo
+PiteSaamiSouthern,Pite Saami [Southern],,66.22,16.33,,,Saami,Pite Saami,Southern,rantanenurageo
+SkoltSaami,Skolt Saami,,68.83,29.72,skol1241,,Saami,Skolt Saami,,rantanenurageo
+SkoltSaamiSouthern,Skolt Saami [Southern],,68.54,30.34,,,Saami,Skolt Saami,Southern,
+SkoltSaamiNorthern,Skolt Saami [Northern],,69.35,30.94,,,Saami,Skolt Saami,Northern,
+SouthSaami,South Saami,,62.88,13.7,sout2674,,Saami,South Saami,,rantanenurageo
+SouthSaamiSouthern,South Saami [Southern],,62.57,12.84,,,Saami,South Saami,Southern,rantanenurageo
+SouthSaamiCentral,South Saami [Central],,63.99,13.61,,,Saami,South Saami,Central,rantanenurageo
+SouthSaamiNorthern,South Saami [Northern],,64.83,15.44,,,Saami,South Saami,Northern,rantanenurageo
+TerSaami,Ter Saami,,67.25,38.51,ters1235,,Saami,Ter Saami,,rantanenurageo
+UmeSaami,Ume Saami,,65.3,17.97,umes1235,,Saami,Ume Saami,,rantanenurageo
+UmeSaamiWestern,Ume Saami [Western],,65.71,16.28,,,Saami,Ume Saami,Western,rantanenurageo
+UmeSaamiCentral,Ume Saami [Central],,65.29,18.37,,,Saami,Ume Saami,Central,rantanenurageo
+UmeSaamiNorthern,Ume Saami [Northern],,65.8,19.14,,,Saami,Ume Saami,Northern,rantanenurageo
+ForestEnets,Forest Enets,,68.55,85.83,fore1265,,Samoyedic,Forest Enets,,rantanenurageo
+ForestNenets,Forest Nenets,,63.72,71.97,fore1274,,Samoyedic,Forest Nenets,,rantanenurageo
+Kamas,Kamas,,55.07,94.83,kama1351,,Samoyedic,Kamas,,rantanenurageo
+Kamaskama1378,Kamas [ [kama1378]],,54.79,92.82,kama1378,,Samoyedic,Kamas, [kama1378],
+KamasKoybal,Kamas [Koybal],,53.62,91.94,samo1299,,Samoyedic,Kamas,Koybal,
+Mator,Mator,,54.27,97.34,mato1250,,Samoyedic,Mator,,rantanenurageo
+Matornucl1288,Mator [ [nucl1288]],,53.98,93.59,nucl1288,,Samoyedic,Mator, [nucl1288],
+MatorTaigi,Mator [Taigi],,53.82,95.69,taig1245,,Samoyedic,Mator,Taigi,
+MatorKaragas,Mator [Karagas],,54.49,99.11,kara1461,,Samoyedic,Mator,Karagas,
+Nganasan,Nganasan,,72.12,102.83,ngan1291,,Samoyedic,Nganasan,,rantanenurageo
+NorthernSelkup,Northern Selkup,,66.05,84.02,tazz1244,,Samoyedic,Northern Selkup,,rantanenurageo
+NorthernSelkupMiddleTaz,Northern Selkup [Middle-Taz],,65.98,81.64,,,Samoyedic,Northern Selkup,Middle-Taz,rantanenurageo
+NorthernSelkupKarasino,Northern Selkup [Karasino],,66.86,85.56,,,Samoyedic,Northern Selkup,Karasino,rantanenurageo
+NorthernSelkupBaikha,Northern Selkup [Baikha],,65.69,86.22,,,Samoyedic,Northern Selkup,Baikha,rantanenurageo
+NorthernSelkupUpperTolka,Northern Selkup [Upper-Tolka],,63.66,80.28,,,Samoyedic,Northern Selkup,Upper-Tolka,rantanenurageo
+NorthernSelkupUpperTaz,Northern Selkup [Upper-Taz],,63.84,84.38,,,Samoyedic,Northern Selkup,Upper-Taz,rantanenurageo
+NorthernSelkupYelogui,Northern Selkup [Yelogui],,62.42,86.16,,,Samoyedic,Northern Selkup,Yelogui,rantanenurageo
+Selkup,Selkup,,65,83.11,selk1253,,Samoyedic,Selkup,,
+TomskregionSelkupSouthernSelkup,Tomsk region Selkup [Southern Selkup],,58.4,82.52,sout3262,,Samoyedic,Tomsk region Selkup,Southern Selkup,rantanenurageo
+TomskregionSelkup,Tomsk region Selkup,,58.18,81.11,kety1234,,Samoyedic,Tomsk region Selkup,,rantanenurageo
+TomskregionSelkupCentralSelkup,Tomsk region Selkup [Central Selkup],,59.87,81.29,cent2328,,Samoyedic,Tomsk region Selkup,Central Selkup,rantanenurageo
+TomskregionSelkupKetSelkup,Tomsk region Selkup [Ket' Selkup],,58.9,85.98,kety1235,,Samoyedic,Tomsk region Selkup,Ket' Selkup,rantanenurageo
+TundraEnets,Tundra Enets,,70.74,84.41,tund1254,,Samoyedic,Tundra Enets,,rantanenurageo
+TundraNenets,Tundra Nenets,,66.18,71.02,nene1249,,Samoyedic,Tundra Nenets,,rantanenurageo

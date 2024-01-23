@@ -1,4 +1,4 @@
-# Geographic data for Uralic languages as CLDF dataset derived from Rantanen et al. "Geographical database of the Uralic languages"
+# Speaker areas for Uralic languages as CLDF dataset derived from Rantanen et al. "Geographical database of the Uralic languages"
 
 [![CLDF validation](https://github.com/cldf-datasets/rantanenurageo/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/rantanenurageo/actions?query=workflow%3ACLDF-validation)
 

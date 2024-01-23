@@ -7,13 +7,14 @@ import itertools
 import collections
 
 from clldutils.misc import slug
+from clldutils.jsonlib import dump
 from csvw.dsv import Dialect
 from cldfbench import Dataset as BaseDataset, CLDFSpec
 
 logging.getLogger("shapely.geos").setLevel(logging.WARNING)
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-URL = "https://zenodo.org/record/4784188/files/" \
+URL = "https://zenodo.org/records/4784188/files/" \
       "Geographical%20database%20of%20the%20Uralic%20languages.zip?download=1"
 PREFIX = 'Geographical database of the Uralic languages/Geospatial datasets/'
 PATHS = {
@@ -154,30 +155,20 @@ class Dataset(BaseDataset):
             'Branch',
             'Language',
             'Dialect',
-        )
-        t = args.writer.cldf.add_table(
-            'areas.csv',
             {
-                'name': 'ID',
-                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#id',
+                'name': 'Speaker_Area',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#speakerArea',
             },
-            {
-                'name': 'Language_ID',
-                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
-            },
-            {
-                'name': "SpeakerArea",
-                'dc:format': 'application/geo+json',
-                'dc:description':
-                    'Speaker area of the variety or language in the traditional time period.',
-                'datatype': 'json',
-            }
         )
-        t.common_props['dc:description'] = \
-            "Speaker areas are provided as GeoJSON MultiPolygons. Since these may be big (bigger " \
-            "than Python's default size limit for columns in CSV files, for example), this data " \
-            "is provided in a separate table to allow reading of the other language metadata " \
-            "without worrying about this."
+        args.writer.cldf.add_component('MediaTable')
+
+        geojson = {
+            'type': 'FeatureCollection',
+            'properties': {
+                'dc:description': 'Speaker areas of uralic language varieties in the traditional time period.',
+            },
+            'features': []
+        }
 
         langs = {
             normalize(r['Language'], r['Dialect']): r
@@ -238,11 +229,18 @@ class Dataset(BaseDataset):
                 continue
 
             lids.add(cldf_lang['ID'])
-            args.writer.objects['LanguageTable'].append(cldf_lang)
             if (l, d) in polygons:
+                poly = copy.deepcopy(polygons[l, d])
                 point = Point(float(row['Longitude']), float(row['Latitude']))
-                assert point.within(shape(polygons[l, d]['geometry'])), '{} - {}'.format(l, d)
-                args.writer.objects['areas.csv'].append(dict(
-                    ID=cldf_lang['ID'],
-                    Language_ID=cldf_lang['ID'],
-                    SpeakerArea=polygons[l, d]))
+                assert point.within(shape(poly['geometry'])), '{} - {}'.format(l, d)
+                # Establish the reation between LanguageTable rows and GeoJSON features:
+                cldf_lang['Speaker_Area'] = 'rantanenurageo'
+                poly['properties']['cldf:languageReference'] = cldf_lang['ID']
+                geojson['features'].append(poly)
+            args.writer.objects['LanguageTable'].append(cldf_lang)
+
+        dump(geojson, self.cldf_dir / 'speaker_areas.geojson', indent=2)
+        args.writer.objects['MediaTable'].append(dict(
+            ID='rantanenurageo',
+            Media_Type='application/geo+json',
+            Download_URL='speaker_areas.geojson'))
