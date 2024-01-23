@@ -160,15 +160,12 @@ class Dataset(BaseDataset):
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#speakerArea',
             },
         )
-        #
-        # FIXME: replace areas.csv with MediaTable and speakerArea property!
-        #
         args.writer.cldf.add_component('MediaTable')
 
         geojson = {
             'type': 'FeatureCollection',
             'properties': {
-                'dc:description': 'Speaker areas of uralic language varieties in the traditional time period',
+                'dc:description': 'Speaker areas of uralic language varieties in the traditional time period.',
             },
             'features': []
         }
@@ -232,11 +229,15 @@ class Dataset(BaseDataset):
                 continue
 
             lids.add(cldf_lang['ID'])
-            args.writer.objects['LanguageTable'].append(cldf_lang)
             if (l, d) in polygons:
+                poly = copy.deepcopy(polygons[l, d])
                 point = Point(float(row['Longitude']), float(row['Latitude']))
-                assert point.within(shape(polygons[l, d]['geometry'])), '{} - {}'.format(l, d)
-                geojson['features'].append(polygons[l, d])
+                assert point.within(shape(poly['geometry'])), '{} - {}'.format(l, d)
+                # Establish the reation between LanguageTable rows and GeoJSON features:
+                cldf_lang['Speaker_Area'] = 'rantanenurageo'
+                poly['properties']['cldf:languageReference'] = cldf_lang['ID']
+                geojson['features'].append(poly)
+            args.writer.objects['LanguageTable'].append(cldf_lang)
 
         dump(geojson, self.cldf_dir / 'speaker_areas.geojson', indent=2)
         args.writer.objects['MediaTable'].append(dict(
